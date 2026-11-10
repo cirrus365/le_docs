@@ -24,6 +24,12 @@
   --MENU-HOME-SEPARATOR-color: rgba( 143, 219, 110, 1 );
   --MENU-HOME-BOTTOM-SEPARATOR-color: rgba( 143, 219, 110, 1 );
 
+  /* syntax highlighting: custom chroma stylesheet with EBECED background */
+  --CODE-theme: ledocs;
+  --CODE-BLOCK-color: rgba( 39, 40, 34, 1 ); /* fallback text color, matches chroma style */
+  --CODE-BLOCK-BG-color: rgba( 235, 236, 237, 1 ); /* EBECED */
+  --CODE-BLOCK-BORDER-color: rgba( 213, 215, 217, 1 );
+
   /* search box: restyle to match blue theme */
   --MENU-SEARCH-color: rgba( 255, 255, 255, 1 );
   --MENU-SEARCH-BG-color: rgba( 10, 114, 196, 1 );

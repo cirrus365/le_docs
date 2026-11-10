@@ -2,5 +2,8 @@ theme: hugo-theme-relearn
 baseURL: https://cirrus365.github.io/le_docs/
 locale: en-us
 title: Le Docs
+markup:
+  highlight:
+    noClasses: false
 params:
   themeVariant: ledocs
