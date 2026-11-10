@@ -1,0 +1,26 @@
+@import "theme-relearn-light.css";
+
+:root {
+  /* brand color; also drives menu header bg, topbar border, tags */
+  --PRIMARY-color: rgba( 12, 142, 242, 1 ); /* 0C8EF2 */
+  --PRIMARY-HOVER-color: rgba( 10, 114, 196, 1 ); /* darker blue for hover states */
+
+  /* menu background: black -> blue */
+  --MENU-SECTIONS-BG-color: rgba( 12, 142, 242, 1 );
+  --MENU-SECTIONS-ACTIVE-BG-color: rgba( 10, 114, 196, 1 );
+  --MENU-SECTION-SEPARATOR-color: rgba( 10, 114, 196, 1 );
+  --MENU-SECTIONS-LINK-color: rgba( 230, 244, 255, 1 ); /* white-ish text for readability on blue */
+  --MENU-SECTIONS-LINK-HOVER-color: rgba( 255, 255, 255, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-color: rgba( 255, 255, 255, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: rgba( 10, 114, 196, 1 ); /* the active chapter row paints white (falls back to MAIN-BG) by default - keep it blue */
+
+  /* header bar: green -> AFF58C */
+  --MENU-HEADER-BG-color: rgba( 175, 245, 140, 1 );
+  --MENU-HEADER-BORDER-color: rgba( 143, 219, 110, 1 );
+  --MENU-HEADER-color: rgba( 30, 40, 26, 1 ); /* dark text for contrast on light green */
+
+  /* search box: restyle to match blue theme */
+  --MENU-SEARCH-color: rgba( 255, 255, 255, 1 );
+  --MENU-SEARCH-BG-color: rgba( 10, 114, 196, 1 );
+  --MENU-SEARCH-BORDER-color: rgba( 175, 245, 140, 1 );
+}
