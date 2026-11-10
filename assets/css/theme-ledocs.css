@@ -19,6 +19,11 @@
   --MENU-HEADER-BORDER-color: rgba( 143, 219, 110, 1 );
   --MENU-HEADER-color: rgba( 30, 40, 26, 1 ); /* dark text for contrast on light green */
 
+  /* homelinks separators: dark gray by default -> blend with the green header */
+  --MENU-HOME-TOP-SEPARATOR-color: rgba( 143, 219, 110, 1 );
+  --MENU-HOME-SEPARATOR-color: rgba( 143, 219, 110, 1 );
+  --MENU-HOME-BOTTOM-SEPARATOR-color: rgba( 143, 219, 110, 1 );
+
   /* search box: restyle to match blue theme */
   --MENU-SEARCH-color: rgba( 255, 255, 255, 1 );
   --MENU-SEARCH-BG-color: rgba( 10, 114, 196, 1 );
