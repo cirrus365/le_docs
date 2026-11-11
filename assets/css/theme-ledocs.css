@@ -35,3 +35,8 @@
   --MENU-SEARCH-BG-color: rgba( 10, 114, 196, 1 );
   --MENU-SEARCH-BORDER-color: rgba( 175, 245, 140, 1 );
 }
+
+/* home page: center the description paragraph under the centered h1 title */
+article.home p {
+  text-align: center;
+}
