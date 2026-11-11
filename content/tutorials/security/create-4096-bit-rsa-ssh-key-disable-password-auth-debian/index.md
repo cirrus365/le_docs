@@ -1,7 +1,7 @@
 ---
 title: Creating a 4096-bit RSA SSH Key and Disabling Password Login on Debian
 description: How to generate a named 4096-bit RSA SSH key pair, copy the public key to a Debian host, and disable SSH password authentication so only key-based login works.
-weight: 6
+weight: 1
 categories: [tutorial]
 tags: [ssh, rsa, debian, security, linux, openssh]
 ---

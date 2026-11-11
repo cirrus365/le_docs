@@ -1,7 +1,7 @@
 ---
 title: Setting Up the Fingerprint Reader on Fedora 43 for a Lenovo Yoga X13
 description: How to install fprintd, enroll fingerprints, and work around the Fedora 43 upgrade issues affecting the Synaptics Prometheus MIS touch fingerprint reader.
-weight: 1
+weight: 3
 categories: [tutorial]
 tags: [fedora, lenovo, linux]
 ---

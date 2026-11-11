@@ -1,7 +1,7 @@
 ---
 title: GnuPG Guide - Create a Key, Sign, Encrypt, Verify, Decrypt and Use Keyservers
 description: How to generate an OpenPGP key pair with GnuPG, back it up, publish it to keys.openpgp.org, sign and encrypt messages, and verify and decrypt messages from other people.
-weight: 7
+weight: 2
 categories: [tutorial]
 tags: [gnupg, gpg, openpgp, encryption, security, linux, keyserver]
 ---

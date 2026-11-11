@@ -7,3 +7,4 @@ markup:
     noClasses: false
 params:
   themeVariant: ledocs
+  collapsibleMenu: true

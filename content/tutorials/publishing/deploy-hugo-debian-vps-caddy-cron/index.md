@@ -1,7 +1,7 @@
 ---
 title: Deploying a Hugo Website on Debian VPS with Caddy
 description: How to install and configure Caddy, build and serve a Hugo website, and automate deployments from a public Git repository with a Bash script and cron.
-weight: 2
+weight: 1
 categories: [tutorial]
 tags: [hugo, debian, caddy, git, ci-cd]
 ---

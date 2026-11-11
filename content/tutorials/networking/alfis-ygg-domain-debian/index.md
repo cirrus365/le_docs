@@ -16,7 +16,7 @@ There is no registrar. You "mine" a block containing your domain, secured by pro
 
 You will run the ALFIS DNS daemon on a Debian server, mine a `.ygg` domain pointing an `AAAA` record at your Yggdrasil address, and resolve it.
 
-**Prerequisites:** a Debian server with a working [Yggdrasil installation](/tutorials/host-website-yggdrasil-network-debian-nginx/) and its IPv6 address (from `sudo yggdrasilctl getSelf`), plus `sudo` rights. The server needs outbound access to port `4244` for blockchain sync.
+**Prerequisites:** a Debian server with a working [Yggdrasil installation](/tutorials/networking/host-website-yggdrasil-network-debian-nginx/) and its IPv6 address (from `sudo yggdrasilctl getSelf`), plus `sudo` rights. The server needs outbound access to port `4244` for blockchain sync.
 
 ## 1. Install the ALFIS DNS daemon
 
@@ -138,5 +138,5 @@ Firefox and Chrome treat unknown TLDs as search terms. In Firefox, set `browser.
 - [ALFIS on GitHub](https://github.com/Revertron/Alfis)
 - [ALFIS releases](https://github.com/Revertron/Alfis/releases)
 - [ALFIS Debian repository](https://deb.revertron.com/)
-- [Hosting a Website on the Yggdrasil Network with Debian and Nginx](/tutorials/host-website-yggdrasil-network-debian-nginx/)
+- [Hosting a Website on the Yggdrasil Network with Debian and Nginx](/tutorials/networking/host-website-yggdrasil-network-debian-nginx/)
 - [Yggdrasil Network](https://yggdrasil-network.github.io/)
