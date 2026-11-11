@@ -6,8 +6,6 @@ categories: [tutorial]
 tags: [debian, linux, cloudflare, cloudflared, networking, self-hosting, security]
 ---
 
-### Access home services with Cloudflare Tunnel on Debian
-
 Cloudflare Tunnel connects a service on your home network to Cloudflare using an outbound connection. You do not need to forward ports on your router or have a static public IP address.
 
 This tutorial uses:

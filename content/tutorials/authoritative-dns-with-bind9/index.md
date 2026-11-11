@@ -6,8 +6,6 @@ categories: [tutorial]
 tags: [debian, linux, bind9, dns, authoritative-dns, nameservers, networking]
 ---
 
-### Set up authoritative DNS with BIND9 on Debian
-
 This tutorial configures **two authoritative-only DNS servers** for a public domain:
 
 - **Primary:** stores the zone file you edit.

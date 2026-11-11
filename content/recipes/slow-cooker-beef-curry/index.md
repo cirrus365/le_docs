@@ -6,8 +6,6 @@ categories: [recipe]
 tags: [beef, curry, slow-cooker, coconut-milk, dinner]
 ---
 
-### Slow Cooker Beef Curry
-
 Tender beef in a coconut curry sauce with onions, garlic, ginger and warming spices. Fry the onions and spices first for extra flavour, then let the slow cooker finish the cooking.
 
 #### Cooking time
