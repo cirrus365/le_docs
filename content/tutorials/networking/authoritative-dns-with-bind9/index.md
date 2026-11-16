@@ -36,9 +36,11 @@ The examples use these **documentation-only values**. Replace them throughout:
 | Secondary IP | `198.51.100.20` |
 | Website IP | `203.0.113.30` |
 
+{{% callout warning %}}
 **If migrating an existing domain:** copy all existing records, including mail and verification records, before changing its delegation. If the registrar currently publishes a DNSSEC **DS record**, arrange its removal and allow its cached lifetime to expire before switching to these unsigned servers. An obsolete DS record can cause validating resolvers to reject your domain.
 
 Do not change the domain’s nameservers until both servers have passed the tests below.
+{{% /callout %}}
 
 #### 2. Install BIND9 on both servers
 
@@ -274,7 +276,9 @@ sudo ufw allow 53/tcp
 
 Apply equivalent rules in your hosting provider’s firewall or security group. Ensure the secondary can make outbound DNS connections to the primary.
 
+{{% callout warning %}}
 Do not enable an unfamiliar firewall remotely without first preserving SSH access. Do not expose BIND’s RNDC management port, TCP `953`, to the public internet.
+{{% /callout %}}
 
 #### 9. Test both servers before delegation
 

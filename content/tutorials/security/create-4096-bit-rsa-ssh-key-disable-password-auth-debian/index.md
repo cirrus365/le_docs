@@ -12,7 +12,9 @@ You will generate a 4096-bit RSA key pair named `alice`, install the public key 
 
 **Prerequisites:** a Debian host with SSH access using a password, and a Linux, macOS or Windows (PowerShell or WSL) computer with OpenSSH installed.
 
-> **Important:** Keep your current SSH session open until you've confirmed key login works in a second terminal. Otherwise a mistake could lock you out.
+{{% callout warning %}}
+Keep your current SSH session open until you've confirmed key login works in a second terminal. Otherwise a mistake could lock you out.
+{{% /callout %}}
 
 ## 1. Generate the key pair
 
@@ -34,7 +36,9 @@ Check that both files exist:
 ls -l ~/.ssh/alice ~/.ssh/alice.pub
 ```
 
-> **Keep `alice` (the private key) secret.** Never share it, upload it or commit it to a repository. Only `alice.pub` goes on servers. Back up the private key to encrypted storage.
+{{% callout warning %}}
+**Keep `alice` (the private key) secret.** Never share it, upload it or commit it to a repository. Only `alice.pub` goes on servers. Back up the private key to encrypted storage.
+{{% /callout %}}
 
 ## 2. Copy the public key to the Debian host
 

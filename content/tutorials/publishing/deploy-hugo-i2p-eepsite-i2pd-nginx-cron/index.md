@@ -120,7 +120,11 @@ You can also open the console in a browser through an SSH tunnel (`ssh -L 7070:1
 
 ### Back up the site key
 
-Your address comes entirely from `/var/lib/i2pd/my-blog.dat`. If you lose that file, you lose the address for good. If someone copies it, they can impersonate your site. Treat it like a password:
+{{% callout warning %}}
+Your address comes entirely from `/var/lib/i2pd/my-blog.dat`. If you lose that file, you lose the address for good. If someone copies it, they can impersonate your site. Treat it like a password.
+{{% /callout %}}
+
+Make a copy for backup:
 
 ```bash
 sudo cp /var/lib/i2pd/my-blog.dat ~/my-blog.dat

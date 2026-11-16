@@ -35,6 +35,10 @@ A hearty cottage pie with a beef and vegetable filling, mashed potato topping an
 - 100 ml semi-skimmed milk
 - 100 g cheddar cheese, grated
 
+{{% callout tip %}}
+The beef stock contributes salt, so taste the filling before adding any extra.
+{{% /callout %}}
+
 ### Method
 
 1. **Soften the vegetables.** Heat the olive oil in a large pan. Add the onions, carrot and celery, then cook gently for 15–20 minutes until softened.
@@ -55,5 +59,4 @@ A hearty cottage pie with a beef and vegetable filling, mashed potato topping an
 
 ### Notes
 
-- The beef stock contributes salt, so taste the filling before adding any extra.
 - Oven temperatures are given without a specified fan or conventional setting.

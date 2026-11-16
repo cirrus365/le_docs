@@ -97,7 +97,9 @@ ip -br addr
 
 The interface is usually called `ygg0` or `tun0`. Use whichever name you see, and replace `ygg0` below if yours differs.
 
-> **Back up your key.** Your address is derived from the `PrivateKey` in `/etc/yggdrasil.conf`. If you lose it, your address changes for good. Copy the file to encrypted offline storage and never commit it to a repository.
+{{% callout warning %}}
+**Back up your key.** Your address is derived from the `PrivateKey` in `/etc/yggdrasil.conf`. If you lose it, your address changes for good. Copy the file to encrypted offline storage and never commit it to a repository.
+{{% /callout %}}
 
 ## 5. Install Nginx
 
@@ -170,7 +172,9 @@ sudo ufw status verbose
 
 This allows SSH on the regular network and HTTP only on the Yggdrasil interface. Ports 80 and 443 stay closed on the public interface. You don't need to open any port for Yggdrasil itself unless you want to accept inbound peer connections. Outbound peering works through the default allow-outgoing rule.
 
-> **Optional hardening:** you can also restrict SSH to the Yggdrasil interface with `sudo ufw allow in on ygg0 to any port 22 proto tcp` and removing the `OpenSSH` rule. Make sure you can log in over Yggdrasil first, or you'll lock yourself out. Many VPS providers offer a web console as a fallback.
+{{% callout warning %}}
+**Optional hardening:** you can also restrict SSH to the Yggdrasil interface with `sudo ufw allow in on ygg0 to any port 22 proto tcp` and removing the `OpenSSH` rule. Make sure you can log in over Yggdrasil first, or you'll lock yourself out. Many VPS providers offer a web console as a fallback.
+{{% /callout %}}
 
 ## 7. Test the setup
 

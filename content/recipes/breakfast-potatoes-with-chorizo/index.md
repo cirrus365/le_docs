@@ -28,6 +28,10 @@ A quick one-pan breakfast hash: potatoes fried until golden, then cooked with ch
 - Fresh chives, chopped
 - Scrambled eggs, to serve
 
+{{% callout tip %}}
+The video gives no measurements for any ingredient. Use enough potatoes to fill your pan in a single layer, and adjust the chorizo, spices and sauces to taste.
+{{% /callout %}}
+
 #### Method
 
 1. **Fry the potatoes.** Heat oil in a frying pan and add the cubed potatoes. Fry, tossing occasionally, until they have a nice golden colour.
@@ -44,7 +48,6 @@ A quick one-pan breakfast hash: potatoes fried until golden, then cooked with ch
 
 #### Notes
 
-- **Quantities:** The video gives no measurements for any ingredient, so amounts cannot be stated. Use enough potatoes to fill your pan in a single layer, and adjust the chorizo, spices and sauces to taste.
 - **Seasoning:** The spice mix shown is paprika, black pepper, oregano and cumin; the exact ratios are not given.
 - **Timing:** The 4 minute 23 second figure is the time stated in the video; treat it as approximate and cook until the potatoes are tender and browned.
 - **Serving:** The dish is plated with scrambled eggs, which are not part of the potato method.

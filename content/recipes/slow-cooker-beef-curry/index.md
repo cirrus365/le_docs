@@ -33,6 +33,10 @@ Tender beef in a coconut curry sauce with onions, garlic, ginger and warming spi
 - Chilli flakes, to taste
 - Rice, optional
 
+{{% callout tip %}}
+You can skip the frying stage and add the ingredients directly to the slow cooker, although the curry will have less depth of flavour. Use full-fat coconut milk; light coconut milk may split during cooking.
+{{% /callout %}}
+
 #### Method
 
 1. **Soften the onions.** Heat a little coconut oil in a large frying pan over medium heat. Add the chopped onions and cook for a few minutes until softened.
@@ -52,7 +56,5 @@ Tender beef in a coconut curry sauce with onions, garlic, ginger and warming spi
 #### Notes
 
 - **Thickener:** No quantity is specified for the flour or cornflour, so an exact measurement cannot be provided.
-- **Coconut milk:** Use full-fat coconut milk; light coconut milk may split during cooking.
-- **Shortcut:** You can skip the frying stage and add the ingredients directly to the slow cooker, although the curry will have less depth of flavour.
 - **Garlic and ginger:** You can replace the separate pastes with 50 g combined garlic and ginger paste.
 - **Slow cooker settings:** The shorter cooking time is for a medium setting, not a verified high-setting alternative. Follow your appliance’s guidance if it only has low and high settings.

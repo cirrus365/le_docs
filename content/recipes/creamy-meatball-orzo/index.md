@@ -32,6 +32,10 @@ Creamy meatballs and orzo cooked together in one pan with chicken stock, crème 
 - Juice of ½ lemon, optional
 - Boiling water, as needed during cooking
 
+{{% callout tip %}}
+The stock volume is unspecified in the source; monitor the pan and add boiling water as needed. The chicken stock and cheese contribute salt, so season the meatballs lightly.
+{{% /callout %}}
+
 ### Method
 
 1. **Make the meatballs.** Mix the beef mince, egg, a little salt, plenty of black pepper and optional dried herbs. Shape into evenly sized meatballs, making a number that divides equally between five portions.
@@ -53,5 +57,3 @@ Creamy meatballs and orzo cooked together in one pan with chicken stock, crème 
 - Uses 5% fat beef mince, but you can 10% fat or higher for flavour.
 - Grana Padano, Parmesan or Pecorino can be used for the cheese.
 - Breadcrumbs are not used in the meatballs.
-- The chicken stock and cheese contribute salt, so season the meatballs lightly.
-- The stock volume is unspecified in the source; monitor the pan and add boiling water as needed.

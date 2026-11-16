@@ -44,6 +44,10 @@ A rich meat lasagna layered with ricotta and finished with a golden mozzarella a
 - 450 g fresh mozzarella, sliced
 - 26 g freshly grated Parmesan
 
+{{% callout tip %}}
+Use tomato cooking sauce, not table tomato sauce or ketchup. The pasta quantity is approximate; use enough sheets for three layers in your dish.
+{{% /callout %}}
+
 ### Method
 
 1. **Brown the meat.** Heat a large, heavy-based pot over medium-high heat. Add the sausage and beef mince. Cook for 6–8 minutes, breaking the meat into small pieces as it browns.
@@ -74,6 +78,4 @@ A rich meat lasagna layered with ricotta and finished with a golden mozzarella a
 
 ### Notes
 
-- The pasta quantity is approximate; use enough sheets for three layers in your dish.
-- Use tomato cooking sauce, not table tomato sauce or ketchup.
 - The oven temperature does not specify a fan or conventional setting.

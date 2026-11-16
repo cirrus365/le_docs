@@ -30,7 +30,9 @@ Install or update it if needed:
 
 The 2.5 series is the current stable branch, and the 2.4 series reached end of life on 30 June 2026. Debian and Ubuntu often ship older versions with security fixes backported, and this guide works on all of them. See the [GnuPG download page](https://gnupg.org/download/) for current releases.
 
-> **Note:** On older guides you may see `gpg2`. On current systems the command is simply `gpg`.
+{{% callout note %}}
+In older guides you may see `gpg2`. On current systems the command is simply `gpg`.
+{{% /callout %}}
 
 ## 2. Generate a key pair
 
@@ -70,7 +72,9 @@ gpg --full-gen-key
 
 RSA 3072 is a safe, widely compatible choice, and 4096 is also fine. GnuPG 2.5 can also create experimental post-quantum ECC+Kyber keys (menu option 16). Other OpenPGP software may not support them yet, so don't use them if you need broad compatibility.
 
-> **Why an expiry date?** You can extend it at any time, even after it expires. An expiry limits the damage if you lose access to the key and can't revoke it.
+{{% callout tip %}}
+**Why an expiry date?** You can extend it at any time, even after it expires. An expiry limits the damage if you lose access to the key and can't revoke it.
+{{% /callout %}}
 
 ## 3. Create a revocation certificate
 
@@ -123,7 +127,9 @@ gpg --export alice@example.org | curl -T - https://keys.openpgp.org
 
 The server replies with a link. Open it and click **Send Verification Email**, then click the link in the email. Only after you confirm your address can people find your key by email.
 
-> **`--send-keys` can't verify your email.** `gpg --send-keys` uploads the key, but the server can't start email confirmation that way. Use it later to push updates such as a new expiry date, a subkey or a revocation, once your address is verified.
+{{% callout note %}}
+**`--send-keys` can't verify your email.** `gpg --send-keys` uploads the key, but the server can't start email confirmation that way. Use it later to push updates such as a new expiry date, a subkey or a revocation, once your address is verified.
+{{% /callout %}}
 
 ```bash
 gpg --keyserver hkps://keys.openpgp.org --send-keys 0123456789ABCDEF0123456789ABCDEF01234567

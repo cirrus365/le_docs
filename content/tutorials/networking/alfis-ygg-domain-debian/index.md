@@ -60,7 +60,9 @@ Then make `127.0.0.1` your resolver. On servers without `systemd-resolved`, edit
 nameserver 127.0.0.1
 ```
 
-> **NetworkManager beware:** on desktop systems it rewrites `/etc/resolv.conf` at will. Use `systemd-resolved` with `DNS=127.0.0.1` in `/etc/systemd/resolved.conf` instead.
+{{% callout warning %}}
+On desktop systems, NetworkManager can rewrite `/etc/resolv.conf`. Use `systemd-resolved` with `DNS=127.0.0.1` in `/etc/systemd/resolved.conf` instead.
+{{% /callout %}}
 
 ## 2. Get a keypair
 
@@ -70,7 +72,9 @@ Domains belong to a cryptographic key, and one key can register up to 10 domains
 2. Unzip it into a directory and run `./alfis`. It looks for a config file named `alfis.toml` in that directory and syncs the blockchain on first start.
 3. Open **Manage keys** and generate a keypair, then **Save key** to a `.key` file.
 
-> **Back up the key file.** Whoever holds your key owns your domains, including renewal and transfer. Store it like a private SSH key.
+{{% callout warning %}}
+**Back up the key file.** Whoever holds your key owns your domains, including renewal and transfer. Store it like a private SSH key.
+{{% /callout %}}
 
 ### No desktop? Use the web UI
 
@@ -121,7 +125,9 @@ Test the full round trip from any machine running Yggdrasil:
 curl -g http://yourname.ygg/
 ```
 
-> **Clearnet mirror:** every `.ygg` domain is also resolvable from the regular internet as `yourname.ygg.at`, which simply points at the same Yggdrasil address. Handy for sharing links with people who haven't set up ALFIS yet.
+{{% callout tip %}}
+Every `.ygg` domain is also resolvable from the regular internet as `yourname.ygg.at`, which simply points at the same Yggdrasil address. Handy for sharing links with people who haven't set up ALFIS yet.
+{{% /callout %}}
 
 ### Browsers and the .ygg suffix
 

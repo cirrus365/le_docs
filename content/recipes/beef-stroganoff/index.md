@@ -29,6 +29,10 @@ A stroganoff-style beef mince dish with mushrooms, crème fraîche and English m
 
 - 400 g uncooked white rice
 
+{{% callout tip %}}
+Start with 1½ tablespoons of English mustard and add more to taste.
+{{% /callout %}}
+
 ### Method
 
 1. **Cook the rice.** Prepare the rice separately according to the packet instructions or using a rice cooker.
@@ -49,6 +53,5 @@ A stroganoff-style beef mince dish with mushrooms, crème fraîche and English m
 
 ### Notes
 
-- Start with 1½ tablespoons of English mustard and add more to taste.
 - The butter quantity is approximate: use a small knob.
 - Serve the rice and stroganoff in layers rather than mixing them together.

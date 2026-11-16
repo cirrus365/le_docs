@@ -64,7 +64,9 @@ mywebsite.noip.at {
 sudo systemctl reload caddy
 ```
 
+{{% callout tip %}}
 Caddy gets and renews the HTTPS certificate automatically. Make sure the `caddy` user can read the files: `chmod o+x /var/www` and keep the files world-readable (the defaults usually work).
+{{% /callout %}}
 
 ## 6. Deploy Script
 

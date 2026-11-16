@@ -98,7 +98,9 @@ The last command prints your `.onion` address.
 
 ### Back up the hidden service key
 
+{{% callout warning %}}
 The `.onion` address is derived entirely from the key in `/var/lib/tor/hugo_site/hs_ed25519_secret_key`. There is no account or registrar behind it, so that file is the only thing tying the address to you. Lose it and the address is gone for good, since regenerating it would mean brute-forcing a 256-bit key. Anyone who copies it can stand up an identical service and impersonate you, so treat it like a password rather than a config file. This applies whether you keep the random address Tor just generated or replace it with a vanity one later.
+{{% /callout %}}
 
 Take the backup from the server and keep it offline:
 

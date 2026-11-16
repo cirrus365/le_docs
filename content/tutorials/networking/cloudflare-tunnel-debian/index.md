@@ -14,7 +14,9 @@ This tutorial uses:
 - **Cloudflare Tunnel** to carry traffic between Cloudflare and your application.
 - **Cloudflare Access** to require authentication before visitors can reach it.
 
-**Important:** a tunnel is not an authentication system by itself. Publishing an application without an Access policy can make it available to anyone who knows its address.
+{{% callout warning %}}
+A tunnel is not an authentication system by itself. Publishing an application without an Access policy can make it available to anyone who knows its address.
+{{% /callout %}}
 
 #### 1. Prepare your domain and application
 
@@ -44,6 +46,14 @@ This guide covers browser-based web applications. It does not configure general-
 
 #### 2. Add your domain to Cloudflare
 
+{{% callout warning %}}
+If migrating an existing domain: preserve all required records, including MX records, TXT verification records and existing subdomains.
+
+If the domain already uses DNSSEC, follow the appropriate DNSSEC migration procedure. A stale DS record at the registrar can break DNS resolution.
+
+If you followed an authoritative BIND9 setup: changing the domain's nameservers to Cloudflare moves its public authoritative DNS hosting to Cloudflare. Do not change the delegation without planning that migration.
+{{% /callout %}}
+
 If your domain is not already active in Cloudflare:
 
 1. Sign in to the Cloudflare dashboard.
@@ -52,12 +62,6 @@ If your domain is not already active in Cloudflare:
 4. Copy the nameservers Cloudflare assigns to your domain.
 5. At your registrar, change the domain's nameservers to those assigned nameservers.
 6. Wait for Cloudflare to confirm that the domain is active.
-
-If migrating an existing domain: preserve all required records, including MX records, TXT verification records and existing subdomains.
-
-If the domain already uses DNSSEC, follow the appropriate DNSSEC migration procedure. A stale DS record at the registrar can break DNS resolution.
-
-If you followed an authoritative BIND9 setup: changing the domain's nameservers to Cloudflare moves its public authoritative DNS hosting to Cloudflare. Do not change the delegation without planning that migration.
 
 #### 3. Prepare Debian
 
@@ -187,12 +191,14 @@ Use the provided instructions rather than assuming cloudflared is available from
 
 For an always-on server, use the dashboard's service installation instructions rather than leaving the connector running only in an interactive terminal.
 
+{{% callout warning %}}
 Treat the tunnel token as a secret:
 
 - Do not commit it to a Git repository.
 - Do not include it in screenshots or public documentation.
 - Do not paste it into support requests.
 - If it is exposed, rotate it and update the affected connectors.
+{{% /callout %}}
 
 Wait for the dashboard to show that the connector has connected, then complete the guided setup.
 

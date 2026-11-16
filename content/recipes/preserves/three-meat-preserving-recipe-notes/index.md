@@ -9,9 +9,11 @@ tags: [pork, pork-belly, beef, food-preservation, food-safety]
 
 These three preparations combine pork or beef with simple seasonings.
 
-**Important:** These are ingredient and preparation notes, not validated canning recipes. The boiling-water preservation methods accompanying these preparations are not safe for storing meat at room temperature and are intentionally omitted.
+{{% callout warning %}}
+These are ingredient and preparation notes, not validated canning recipes. The boiling-water preservation methods accompanying these preparations are not safe for storing meat at room temperature and are intentionally omitted.
 
 Meat is a low-acid food and requires a tested pressure-canning recipe for shelf-stable preservation. A sealed lid does not prove that the contents are safe. Adding vinegar, salt or oil does not make an untested process safe.
+{{% /callout %}}
 
 #### 1. Pork Shoulder or Neck with Bacon
 

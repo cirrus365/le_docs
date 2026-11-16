@@ -66,6 +66,10 @@ Dinner in 20 Minutes! 🔥 Old German Recipe, a layered potato bake with a beef 
 - Juice of ½ lemon
 - 1 teaspoon mustard
 
+{{% callout tip %}}
+Use two tomatoes in total—one for the beef filling and one for the salad. Use the listed flour weight of 30 g for consistency; tablespoon measurements can vary.
+{{% /callout %}}
+
 #### Method
 
 ##### 1. Prepare the eggs
@@ -118,5 +122,3 @@ Serve the warm potato and beef mince bake with the dressed salad alongside.
 
 - **Servings and baking dish size:** Not specified.
 - **Oven setting:** Fan or conventional is not specified.
-- **Tomatoes:** Use two in total—one for the beef filling and one for the salad.
-- **Flour:** Use the listed weight of 30 g for consistency; tablespoon measurements can vary.
