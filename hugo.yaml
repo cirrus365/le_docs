@@ -6,5 +6,6 @@ markup:
   highlight:
     noClasses: false
 params:
-  themeVariant: ledocs
+  themeVariant: auto
+  themeVariantAuto: [ledocs, ledocs-dark]
   collapsibleMenu: true

@@ -1,0 +1,30 @@
+@import "theme-relearn-dark.css";
+
+:root {
+  /* Keep the Le Docs blue and green branding on the dark theme. */
+  --PRIMARY-color: rgba( 50, 166, 255, 1 );
+  --PRIMARY-HOVER-color: rgba( 112, 193, 255, 1 );
+
+  --MENU-SECTIONS-BG-color: rgba( 12, 142, 242, 1 );
+  --MENU-SECTIONS-ACTIVE-BG-color: rgba( 10, 114, 196, 1 );
+  --MENU-SECTION-SEPARATOR-color: rgba( 10, 114, 196, 1 );
+  --MENU-SECTIONS-LINK-color: rgba( 230, 244, 255, 1 );
+  --MENU-SECTIONS-LINK-HOVER-color: rgba( 255, 255, 255, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-color: rgba( 255, 255, 255, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: rgba( 10, 114, 196, 1 );
+
+  --MENU-HEADER-BG-color: rgba( 175, 245, 140, 1 );
+  --MENU-HEADER-BORDER-color: rgba( 143, 219, 110, 1 );
+  --MENU-HEADER-color: rgba( 30, 40, 26, 1 );
+  --MENU-HOME-TOP-SEPARATOR-color: rgba( 143, 219, 110, 1 );
+  --MENU-HOME-SEPARATOR-color: rgba( 143, 219, 110, 1 );
+  --MENU-HOME-BOTTOM-SEPARATOR-color: rgba( 143, 219, 110, 1 );
+
+  --MENU-SEARCH-color: rgba( 255, 255, 255, 1 );
+  --MENU-SEARCH-BG-color: rgba( 10, 114, 196, 1 );
+  --MENU-SEARCH-BORDER-color: rgba( 175, 245, 140, 1 );
+}
+
+article.home p {
+  text-align: center;
+}
