@@ -9,3 +9,14 @@ params:
   themeVariant: auto
   themeVariantAuto: [ledocs, ledocs-dark]
   collapsibleMenu: true
+  boxStyle:
+    - identifier: note
+      color: "#A5ECFA"
+      captioncolor: "#1E281A"
+    - identifier: important
+      color: "#FDBC68"
+      captioncolor: "#1E281A"
+    - identifier: warning
+      i18n: important
+      color: "#FDBC68"
+      captioncolor: "#1E281A"
